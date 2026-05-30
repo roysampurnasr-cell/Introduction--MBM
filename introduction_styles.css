@@ -32,13 +32,29 @@ h3 {
 p, li, td {
   font-size: 18px;
 }
- 
+ .info-section {
+  background-color: #020730;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.info-section p {
+  margin: 12px 0;
+  font-size: 18px;
+}
+
+.info-section strong {
+  color: #b6f1f1;
+  font-size: 22px;
+}
 .about-section {
   display: flex;
   align-items: center;
   gap: 40px;
 
-  background-color: #0f4776;
+  background-color: #005161;
   padding: 30px;
   border-radius: 10px;
 
@@ -69,7 +85,7 @@ p, li, td {
 }
 
 section {
-  background-color: #0f4776;
+  background-color: #005161;
   margin: 20px 0;
   padding: 15px;
   border-radius: 5px;
@@ -84,11 +100,28 @@ img {
   height: auto;
   border-radius: 5px;
 }
- 
-ul {
-  list-style-type: square;
+
+.content-section {
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #020730;
+  color: white;
+  border-radius: 10px;
+}
+.content-section h3 {
+  color: #b6f1f1;
+  margin-bottom: 10px;
 }
 
+.content-section li {
+  color: white;
+  font-size: 18px;
+  line-height: 1.6;
+}
+.content-section ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
 table {
   width: 100%;
   border-collapse: collapse;
