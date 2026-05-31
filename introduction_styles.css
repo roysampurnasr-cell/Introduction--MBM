@@ -80,6 +80,7 @@ p, h3 {
 .about-text {
   flex: 1;
   min-width: 250px;
+  text-align: left;
 }
 
 .about-text h2 {
@@ -91,6 +92,8 @@ p, h3 {
   color: #fbfcfc;
   font-size: 18px;
   line-height: 1.6;
+  max-width: 60 ch;
+  hyphens: auto;
 }
 
 section {
@@ -157,10 +160,11 @@ img {
   margin: 20px 0;
   width: 100%;
   box-sizing: border-box;
+  overflow-x: auto;
 }
 .table-section table {
-  width: 100%;
-  table-layout: fixed;
+  width: max-content;
+  min-width: 100%;
   border-collapse: collapse;
   margin: 20px auto;
 }
@@ -171,7 +175,7 @@ img {
   overflow-wrap: break-word;
 }
 .table-section table th:first-child, .table-section table td:first-child {
-  width: 30%;
+  width: 40%;
   font-weight: bold;
   text-align: center;
 }
@@ -180,7 +184,7 @@ img {
   text-align: center;
 }
 .table-section table th:last-child, .table-section table td:last-child {
-  width: 70%;
+  width: 60%;
 }
 .table-section 
 h2 {
